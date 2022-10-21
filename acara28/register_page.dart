@@ -36,9 +36,11 @@ class _RegisterPageState extends State<RegisterPage> {
                       color: Color(0xff2d4850),),
                   ),
                   Padding(
-                    padding: EdgeInsets.only(top: 20.0),
+                    padding: EdgeInsets.only(top: 25.0),
                   ),
-                  TextField(
+                  Container(
+                    width: 320.0,
+                    child: TextField(
                     decoration: new InputDecoration(
                     hintText: "username",
                     hintStyle: TextStyle(fontStyle: FontStyle.italic),
@@ -48,11 +50,14 @@ class _RegisterPageState extends State<RegisterPage> {
                     borderRadius: new BorderRadius.circular(10.0))
                     ),
                     onChanged: (value) {},
-                  ),
+                    ),
+                  ),                  
                   Padding(
                     padding: EdgeInsets.only(top: 10.0),
                   ),
-                  TextField(
+                  Container(
+                    width: 320.0,
+                    child: TextField(
                     decoration: new InputDecoration(
                     hintText: "email",
                     hintStyle: TextStyle(fontStyle: FontStyle.italic),
@@ -61,11 +66,14 @@ class _RegisterPageState extends State<RegisterPage> {
                     border: new OutlineInputBorder(
                     borderRadius: new BorderRadius.circular(10.0))),
                     onChanged: (value) {},
-                  ),
+                    ),
+                  ),                  
                   Padding(
                     padding: EdgeInsets.only(top: 10.0),
                   ),
-                  TextField(
+                  Container(
+                    width: 320.0,
+                    child: TextField(
                     decoration: new InputDecoration(
                     hintText: "password",
                     hintStyle: TextStyle(fontStyle: FontStyle.italic),
@@ -74,11 +82,14 @@ class _RegisterPageState extends State<RegisterPage> {
                     border: new OutlineInputBorder(
                     borderRadius: new BorderRadius.circular(10.0))),
                     onChanged: (value) {},
-                  ),
+                    ),
+                  ),                                   
                   Padding(
                     padding: EdgeInsets.only(top: 10.0),
                   ),
-                  TextField(
+                  Container(
+                    width: 320.0,
+                    child: TextField(
                     decoration: new InputDecoration(
                     hintText: "confirm password",
                     hintStyle: TextStyle(fontStyle: FontStyle.italic),
@@ -87,7 +98,8 @@ class _RegisterPageState extends State<RegisterPage> {
                     border: new OutlineInputBorder(
                     borderRadius: new BorderRadius.circular(10.0))),
                     onChanged: (value) {},
-                  ),
+                    ),
+                  ),                  
                   Padding(
                     padding: EdgeInsets.only(top: 25.0),
                   ),
