@@ -40,6 +40,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                   Container(
                     width: 320.0,
+                    height: 45.0,
                     child: TextField(
                     decoration: new InputDecoration(
                     hintText: "username",
@@ -57,6 +58,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                   Container(
                     width: 320.0,
+                    height: 45.0,
                     child: TextField(
                     decoration: new InputDecoration(
                     hintText: "email",
@@ -73,6 +75,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                   Container(
                     width: 320.0,
+                    height: 45.0,
                     child: TextField(
                     decoration: new InputDecoration(
                     hintText: "password",
@@ -89,6 +92,7 @@ class _RegisterPageState extends State<RegisterPage> {
                   ),
                   Container(
                     width: 320.0,
+                    height: 45.0,
                     child: TextField(
                     decoration: new InputDecoration(
                     hintText: "confirm password",
